@@ -16,5 +16,5 @@ jobs:
       - uses: dessant/issue-states@v2
         with:
           github-token: ${{ github.token }}
-          open-issue-columns: 'To be reviewed, Open'
+          open-issue-columns: 'To do, Open'
           closed-issue-columns: 'Closed, Done'
